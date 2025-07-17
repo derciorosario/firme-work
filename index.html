@@ -232,12 +232,43 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
       </section>
     </div>
 
+    <style>
+      .hero-bg-mobile-container{
+           height: 60vh;
+           display: none;
+      }
+      @media (max-width:700px){
+        .hero-bg{
+              background-image: none !important;
+        }
+        .hero-bg .guten-background-overlay{
+          display: none;
+        }
+        .hero-bg-mobile{
+          height: 100%;
+        }
+        .hero-bg-mobile img{
+           width: 100%;
+        }
+         .hero-bg-mobile-container{
+           display: block;
+        }
+       
+      }
+    </style>
+
     <div class="section-wrapper" data-id="MJKvJA">
-      <section class="wp-block-gutenverse-section guten-element guten-section guten-MJKvJA layout-boxed align-stretch">
+      <div class="hero-bg-mobile-container">
+        <div class="hero-bg-mobile">
+          <img src="wp-content/uploads/images/hero-image.jpg"/>
+        </div>
+      </div>
+      <section  class="wp-block-gutenverse-section hero-bg guten-element guten-section guten-MJKvJA layout-boxed align-stretch">
         <div class="guten-background-overlay"></div>
         <div class="guten-container guten-column-gap-default">
           <div class="wp-block-gutenverse-column guten-element guten-column guten-cVUbIY">
             <div class="guten-column-wrapper" data-id="cVUbIY">
+
               <h1 class="wp-block-gutenverse-heading guten-element guten-ew45Su">Excelência em Soluções Industriais Integradas</h1>
 
               <div class="guten-element gutenverse-text-editor guten-ontlRJ">
