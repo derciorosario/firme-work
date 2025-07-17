@@ -232,37 +232,105 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
       </section>
     </div>
 
-    <style>
-      .hero-bg-mobile-container{
-           height: 60vh;
-           display: none;
-      }
-      @media (max-width:700px){
-        .hero-bg{
-              background-image: none !important;
-        }
-        .hero-bg .guten-background-overlay{
-          display: none;
-        }
-        .hero-bg-mobile{
-          height: 100%;
-        }
-        .hero-bg-mobile img{
-           width: 100%;
-        }
-         .hero-bg-mobile-container{
-           display: block;
-        }
-       
-      }
-    </style>
+   
 
     <div class="section-wrapper" data-id="MJKvJA">
-      <div class="hero-bg-mobile-container">
-        <div class="hero-bg-mobile">
-          <img src="wp-content/uploads/images/hero-image.jpg"/>
-        </div>
-      </div>
+      
+      
+    
+      <div class="hero-mobile">
+  <img src="wp-content/uploads/images/hero-image.jpg" alt="Firm Work Industries" class="hero-image"/>
+  <div class="hero-content">
+    <p class="hero-subtitle">Firm Work • Soluções Industriais</p>
+    <p class="hero-tagline">Qualidade, Soluções e Inovação.</p>
+  </div>
+</div>
+
+<style>
+  .hero-mobile {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    min-height: 400px;
+    overflow: hidden;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .hero-content {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    right: 5%;
+    background: linear-gradient(90deg, rgba(11, 27, 105, 1) 0%, rgba(11, 27, 105, 0.8) 40%, rgba(255, 255, 255, 0) 100%);
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+    animation: fadeInUp 0.8s ease-out;
+  }
+  
+  .hero-title {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .hero-divider {
+    width: 60px;
+    height: 3px;
+    background: #4CAF50;
+    margin: 0.8rem auto;
+    border-radius: 3px;
+  }
+  
+  .hero-subtitle {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+  }
+  
+  .hero-tagline {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 700px) {
+    .hero-mobile {
+      display: block;
+    }
+    .hero-bg{
+      background-image: none !important;
+    }
+    
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  }
+</style>
+
+
       <section  class="wp-block-gutenverse-section hero-bg guten-element guten-section guten-MJKvJA layout-boxed align-stretch">
         <div class="guten-background-overlay"></div>
         <div class="guten-container guten-column-gap-default">
