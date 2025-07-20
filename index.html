@@ -459,6 +459,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const popup = document.querySelector('.guten-popup');
   const closeBtn = document.querySelector('.guten-popup-close');
   const overlay = document.querySelector('.video-popup .guten-popup-wrapper-center');
+  const overlay2 = document.querySelector('.video-popup .guten-popup-overlay');
 
   if (video && popup && closeBtn && overlay) {
     // Function to stop video
@@ -472,6 +473,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Overlay click (closes popup when clicking outside)
     overlay.addEventListener('click', stopVideo);
+
+    overlay2.addEventListener('click', stopVideo);
 
     // Optional: Also stop video when pressing ESC key
     document.addEventListener('keydown', function(e) {
