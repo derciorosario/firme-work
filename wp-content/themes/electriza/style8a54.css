@@ -16,6 +16,22 @@ Tags: block-patterns,block-styles,custom-background,custom-menu,editor-style,ful
 Copyright: © Jegstudio. All rights reserved.
 */
 
+
+ .gutenverse-menu ._menu-doc{
+    display: none !important;
+ }
+ @media (max-width: 1024px) {
+            .gutenverse-menu .menu-item a{
+               font-size: 16px !important;
+            }
+            .gutenverse-menu ._sub-menu{
+                display: none !important;
+            }
+            .gutenverse-menu ._menu-doc{
+                display:block !important;
+            }
+}
+
 :root{
     
 }
