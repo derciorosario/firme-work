@@ -585,6 +585,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
     let selected_cat=categoryMapping[getUrlParameter('category')]
     if(selected_cat){
        document.querySelector(`[data-categoria="${selected_cat}"]`).click();
+       document.querySelector('.filtro-select').value=selected_cat
     }
 
   }
