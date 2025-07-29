@@ -74,3 +74,13 @@ Copyright: © Jegstudio. All rights reserved.
 {
      font-size: 1.2rem !important;
 }
+
+
+#products  img,
+#services  img
+{
+    width: 50px;
+    border-radius: 0.6rem;
+    margin-left: 1rem;
+
+}
