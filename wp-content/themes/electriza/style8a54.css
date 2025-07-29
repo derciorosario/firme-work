@@ -17,6 +17,11 @@ Copyright: © Jegstudio. All rights reserved.
 */
 
 
+ .firme-work-title{
+    font-size: 1.08rem; width: 100%;
+    color: #000;
+    text-transform: uppercase;
+ }
  .gutenverse-menu ._menu-doc{
     display: none !important;
  }
@@ -30,8 +35,31 @@ Copyright: © Jegstudio. All rights reserved.
             .gutenverse-menu ._menu-doc{
                 display:block !important;
             }
+             .firme-work-title{
+                text-align: center;
+            }
 }
 
+/*
+.dropdown-container-btn{
+    background-color: #87C801 !important;
+}
+.btn-divider{
+    height: 15px;width: 1px;background-color: #fff; border-radius: 0.5rem; margin-left: 0.2rem;margin-right: 0.1rem;
+}*/
+
+.dropdown-container-btn{
+    background-color: #ffd027 !important;
+}
+.dropdown-container-btn svg{
+    fill: #0b1b69 !important;
+}
+.dropdown-container-btn span{
+   color: #0b1b69 !important;
+}
+.btn-divider{
+    height: 15px;width: 1px;background-color: #0b1b69; border-radius: 0.5rem; margin-left: 0.2rem;margin-right: 0.1rem;
+}
 :root{
     
 }
