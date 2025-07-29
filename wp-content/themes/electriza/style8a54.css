@@ -17,7 +17,8 @@ Copyright: © Jegstudio. All rights reserved.
 */
 
 
- .firme-work-title{
+
+.firme-work-title{
     font-size: 1.08rem; width: 100%;
     color: #000;
     text-transform: uppercase;
@@ -65,4 +66,11 @@ Copyright: © Jegstudio. All rights reserved.
 }
 .editor-styles-wrapper .block-editor-block-list__layout.is-root-container > .block-library-block__reusable-block-container {
     max-width: 100%;
+}
+
+
+#products .guten-button span,
+#services .guten-button span
+{
+     font-size: 1.2rem !important;
 }
