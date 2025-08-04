@@ -199,3 +199,9 @@ Copyright: © Jegstudio. All rights reserved.
     margin-left: 1rem;
 
 }
+
+
+.gutenverse-menu-wrapper .gutenverse-menu .sub-menu li a{
+  padding: 10px !important;
+  line-height: normal !important;
+}
